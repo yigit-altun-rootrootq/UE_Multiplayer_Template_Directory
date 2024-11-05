@@ -34,7 +34,7 @@ This method should be used **as a last resort**. Port forwarding is done through
 
 > **Note:** Port forwarding settings vary by router model, so consult your router's manual for assistance.
 
-![Port Forwarding Image](https://example.com/portforwarding.png)
+![Port Forwarding Image](https://github.com/yigit-altun-rootrootq/UE_Multiplayer_Template_Directory/blob/main/port%20forwarding.png)
 
 ---
 
