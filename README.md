@@ -14,7 +14,7 @@ This is the easiest and most reliable option. Using virtual private network (VPN
 2. Create a new network in the program or join an existing network.
 3. Share the network details with other players and start the Unreal Engine game.
 
-![Radmin VPN Image]([https://www.radmin-vpn.com/images/overview.png](https://github.com/yigit-altun-rootrootq/UE_Multiplayer_Template_Directory/blob/main/Hamachi.png))
+![Radmin VPN Image](https://github.com/yigit-altun-rootrootq/UE_Multiplayer_Template_Directory/blob/main/Radmin.png)
 
 #### Using Hamachi
 1. Download and install [Hamachi](https://vpn.net/).
