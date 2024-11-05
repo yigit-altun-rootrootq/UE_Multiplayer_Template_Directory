@@ -1,43 +1,44 @@
 # UE_Multiplayer_Template_Directory
-Bu template, Unreal Engine’de farklı ağlarda bulunan oyuncuların kolayca bağlantı kurarak oyunu oynamalarını sağlamak için tasarlanmıştır. Template, **standart subsystem** kullanır ve iki farklı bağlantı yöntemi sunar: 
+This template is designed to allow players on different networks to connect and play the game easily in Unreal Engine. The template uses a **standard subsystem** and offers two connection methods:
 
-1. **VPN Bağlantısı (Tavsiye Edilen Yöntem)**
-2. **Port Forwarding (Alternatif Yöntem)**
+1. **VPN Connection (Recommended Method)**
+2. **Port Forwarding (Alternative Method)**
 
-## Bağlantı Yöntemleri
+## Connection Methods
 
-### 1. Radmin VPN veya Hamachi ile Bağlantı
-Bu yöntem, en kolay ve güvenilir seçenek olarak önerilir. **Radmin VPN** veya **Hamachi** gibi sanal özel ağ (VPN) programları kullanarak oyuncular, aynı yerel ağdaymış gibi birbirlerine bağlanabilir. Bu programlar, düşük gecikme ve basit kurulum ile bağlantı sağlar. 
+### 1. Connecting via Radmin VPN or Hamachi
+This is the easiest and most reliable option. Using virtual private network (VPN) programs such as **Radmin VPN** or **Hamachi**, players can connect to each other as if they were on the same local network. These programs provide low latency and simple setup.
 
-#### Radmin VPN Kullanımı
-1. [Radmin VPN](https://www.radmin-vpn.com/) indirip kurun.
-2. Programda yeni bir ağ oluşturun veya mevcut bir ağa katılın.
-3. Ağ bilgilerini diğer oyuncularla paylaşın ve Unreal Engine oyununu başlatın.
-   
-![Radmin VPN Görseli](https://www.radmin-vpn.com/images/overview.png)
+#### Using Radmin VPN
+1. Download and install [Radmin VPN](https://www.radmin-vpn.com/).
+2. Create a new network in the program or join an existing network.
+3. Share the network details with other players and start the Unreal Engine game.
 
-#### Hamachi Kullanımı
-1. [Hamachi](https://vpn.net/) indirip kurun.
-2. "Ağ Oluştur" veya "Ağa Katıl" seçeneklerini kullanarak bağlantı kurun.
-3. Ağ bilgilerini diğer oyuncularla paylaşarak oyunu başlatabilirsiniz.
+![Radmin VPN Image](https://www.radmin-vpn.com/images/overview.png)
 
-![Hamachi Görseli](https://www.vpn.net/images/screenshots/windows.png)
+#### Using Hamachi
+1. Download and install [Hamachi](https://vpn.net/).
+2. Use the "Create Network" or "Join Network" options to connect.
+3. Share the network information with other players and start the game.
 
-### 2. Port Forwarding ile Bağlantı (Alternatif Yöntem)
-Bu yöntem, **son çare** olarak tercih edilmelidir. Port forwarding, yönlendirici ayarlarıyla yapılır ve biraz daha karmaşık bir işlemdir. 
+![Hamachi Image](https://www.vpn.net/images/screenshots/windows.png)
 
-#### Port Forwarding İşlemi
-1. Yönlendiricinizin IP adresine tarayıcı üzerinden gidin.
-2. Giriş yaptıktan sonra **Port Forwarding** veya **NAT Ayarları** menüsüne gidin.
-3. Unreal Engine için gerekli portu (örneğin, `7777`) açın ve cihaz IP’nizi seçin.
-4. Bağlantı için IP adresinizi diğer oyuncularla paylaşarak oyuna katılmalarını sağlayın.
+### 2. Connecting via Port Forwarding (Alternative Method)
+This method should be used **as a last resort**. Port forwarding is done through router settings and is a bit more complex.
 
-> **Not:** Port forwarding ayarları her yönlendiricide farklılık gösterebilir, yönlendirici kılavuzundan destek alabilirsiniz.
+#### Port Forwarding Process
+1. Access your router’s IP address through a browser.
+2. Once logged in, navigate to the **Port Forwarding** or **NAT Settings** menu.
+3. Open the required port for Unreal Engine (e.g., `7777`) and select your device's IP.
+4. Share your IP address with other players so they can join the game.
 
-![Port Forwarding Görseli](https://example.com/portforwarding.png)
+> **Note:** Port forwarding settings vary by router model, so consult your router's manual for assistance.
+
+![Port Forwarding Image](https://example.com/portforwarding.png)
 
 ---
 
-Bu template, oyuncuların oyuna hızlı ve güvenilir bir şekilde bağlanmasını sağlar. VPN yöntemi daha güvenli ve kullanışlı olup, port forwarding yalnızca diğer yöntemler başarısız olursa kullanılmalıdır.
+This template enables players to connect to the game quickly and reliably. The VPN method is safer and more convenient, while port forwarding should only be used if other methods are unsuccessful.
 
-**İyi oyunlar!**
+**Happy gaming!**
+
