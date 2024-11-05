@@ -21,7 +21,7 @@ This is the easiest and most reliable option. Using virtual private network (VPN
 2. Use the "Create Network" or "Join Network" options to connect.
 3. Share the network information with other players and start the game.
 
-![Hamachi Image](https://www.vpn.net/images/screenshots/windows.png)
+![Hamachi Image](https://github.com/yigit-altun-rootrootq/UE_Multiplayer_Template_Directory/blob/main/Hamachi.png)
 
 ### 2. Connecting via Port Forwarding (Alternative Method)
 This method should be used **as a last resort**. Port forwarding is done through router settings and is a bit more complex.
